@@ -1,3 +1,4 @@
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -11,8 +12,20 @@ th, td {
 
 th {
     background-color: bisque;
-    color: white;
+    color: navy;
     font-weight: bold;
     font-size: 18px;
     text-align: center;
+}
+
+td:nth-child(1) {
+    text-align: center;
+}
+
+td:nth-child(2) {
+    text-transform: uppercase;
+}
+
+td:nth-child(3) {
+    color: red;
 }
